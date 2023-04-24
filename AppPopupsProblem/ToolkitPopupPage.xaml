@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<toolkit:Popup xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+                        xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+                        x:Class="AppPopupsProblem.ToolkitPopupPage"
+                        xmlns:toolkit="http://schemas.microsoft.com/dotnet/2022/maui/toolkit">
+    
+    <Frame VerticalOptions="Center"
+           HorizontalOptions="Center"
+           BackgroundColor="White"
+           WidthRequest="500"
+           HeightRequest="580"
+           Padding="20"
+           CornerRadius="6"
+           HasShadow="false"
+           IsClippedToBounds="True">
+    
+        <VerticalStackLayout>
+            <Label Text="This is a very important message!" />
+        </VerticalStackLayout>
+        
+    </Frame>
+
+</toolkit:Popup>
